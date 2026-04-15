@@ -2,7 +2,7 @@
 
 try {
 
-    $pdo = new PDO('mysql:host=localhost;dbname=catalogue','root','My@dm1nLilly');
+    $pdo = new PDO('mysql:host=localhost;dbname=catalogue','root','@dm1nITSME');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     if ($_POST['nom'] != ''){

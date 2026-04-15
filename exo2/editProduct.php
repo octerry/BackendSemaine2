@@ -11,7 +11,7 @@
         
         $id = $_GET["id"];
 
-        $pdo = new PDO('mysql:host=localhost;dbname=catalogue','root','My@dm1nLilly');
+        $pdo = new PDO('mysql:host=localhost;dbname=catalogue','root','@dm1nITSME');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $result = $pdo->query("SELECT * FROM catalogue WHERE id=$id");
         $result = $result->fetchAll(PDO::FETCH_DEFAULT);
