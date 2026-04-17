@@ -23,7 +23,7 @@ if ($user && password_verify( $password, $user['mot_de_passe'] )){
     $_SESSION["user_id"] = $user["id"];
     $_SESSION["email"] = $user["email"];
 
-    header("location: acceuil.php");
+    header("location: accueil.php");
 } else {
     echo "Email ou mot de passe incorrect";
 }

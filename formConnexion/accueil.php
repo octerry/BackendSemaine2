@@ -11,7 +11,7 @@
     $user_id = $_SESSION["id"];
     $email = $_SESSION["email"];
 
-    echo "Bonjour !<br>Vous êtes connectez sur votre mail $email<br>Vous identifiant utilisateur est $user_id";
+    echo "Bonjour !<br>Vous êtes connecté sur votre mail $email<br>Votre identifiant utilisateur est $user_id";
     
     ?>
     <form action="logout.php" method="POST">
